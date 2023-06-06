@@ -1,0 +1,282 @@
+using System;
+using System.Collections.Generic;
+
+// Builder pattern
+public class AccountBuilder
+{
+    private string accountNumber;
+    private string accountType;
+    private double balance;
+    
+    public AccountBuilder SetAccountNumber(string accountNumber)
+    {
+        this.accountNumber = accountNumber;
+        return this;
+    }
+    
+    public AccountBuilder SetAccountType(string accountType)
+    {
+        this.accountType = accountType;
+        return this;
+    }
+    
+    public AccountBuilder SetBalance(double balance)
+    {
+        this.balance = balance;
+        return this;
+    }
+    
+    public Account Build()
+    {
+        return new Account(accountNumber, accountType, balance);
+    }
+}
+
+// Prototype pattern
+public abstract class AccountPrototype
+{
+    public abstract AccountPrototype Clone();
+    public abstract double GetBalance();
+}
+
+public class Account : AccountPrototype
+{
+    public string AccountNumber { get; set; }
+    public string AccountType { get; set; }
+    private double balance;
+    
+    public Account(string accountNumber, string accountType, double balance)
+    {
+        AccountNumber = accountNumber;
+        AccountType = accountType;
+        this.balance = balance;
+    }
+    
+    public override AccountPrototype Clone()
+    {
+        return (AccountPrototype)this.MemberwiseClone();
+    }
+    
+    public override double GetBalance()
+    {
+        return balance;
+    }
+}
+
+// Decorator pattern
+public abstract class AccountDecorator : AccountPrototype
+{
+    protected AccountPrototype account;
+    
+    public AccountDecorator(AccountPrototype account)
+    {
+        this.account = account;
+    }
+    
+    public override AccountPrototype Clone()
+    {
+        return account.Clone();
+    }
+    
+    public override double GetBalance()
+    {
+        return account.GetBalance();
+    }
+}
+
+public class OverdraftAccountDecorator : AccountDecorator
+{
+    public OverdraftAccountDecorator(AccountPrototype account) : base(account) { }
+    
+    public override AccountPrototype Clone()
+    {
+        var clonedAccount = base.Clone();
+        // Additional logic for overdraft account
+        Console.WriteLine("Creating an overdraft account");
+        return clonedAccount;
+    }
+}
+
+// Adapter pattern
+public class BankService
+{
+    public void ProcessAccount(AccountPrototype account)
+    {
+        Console.WriteLine("Processing account: " + account.GetBalance());
+    }
+}
+
+public interface IBankServiceAdapter
+{
+    void ProcessAccount(AccountPrototype account);
+}
+
+public class BankServiceAdapter : IBankServiceAdapter
+{
+    private readonly BankService bankService;
+    
+    public BankServiceAdapter()
+    {
+        bankService = new BankService();
+    }
+    
+    public void ProcessAccount(AccountPrototype account)
+    {
+        bankService.ProcessAccount(account);
+    }
+}
+
+// Observer pattern
+public interface IObserver
+{
+    void Update(AccountPrototype account);
+}
+
+public interface IObservable
+{
+    void Attach(IObserver observer);
+    void Detach(IObserver observer);
+    void Notify();
+}
+
+public class AccountObservable : IObservable
+{
+    private List<IObserver> observers = new List<IObserver>();
+    private AccountPrototype account;
+    
+    public void Attach(IObserver observer)
+    {
+        observers.Add(observer);
+    }
+    
+    public void Detach(IObserver observer)
+    {
+        observers.Remove(observer);
+    }
+    
+    public void Notify()
+    {
+        foreach (var observer in observers)
+        {
+            observer.Update(account);
+        }
+    }
+    
+    public void SetAccount(AccountPrototype account)
+    {
+        this.account = account;
+        Notify();
+    }
+}
+
+public class AccountObserver : IObserver
+{
+    public void Update(AccountPrototype account)
+    {
+        Console.WriteLine("Account balance updated: " + account.GetBalance());
+    }
+}
+
+// Strategy pattern
+public interface IInterestStrategy
+{
+    double CalculateInterest(double balance);
+}
+
+public class SimpleInterestStrategy : IInterestStrategy
+{
+    public double CalculateInterest(double balance)
+    {
+        return balance * 0.05; // 5% interest rate
+    }
+}
+
+public class CompoundInterestStrategy : IInterestStrategy
+{
+    public double CalculateInterest(double balance)
+    {
+        return balance * 0.1; // 10% interest rate
+    }
+}
+
+// Banking system classes
+public class Customer
+{
+    public string Name { get; set; }
+    public List<AccountPrototype> Accounts { get; set; }
+    
+    public Customer(string name)
+    {
+        Name = name;
+        Accounts = new List<AccountPrototype>();
+    }
+    
+    public void AddAccount(AccountPrototype account)
+    {
+        Accounts.Add(account);
+    }
+    
+    public void RemoveAccount(AccountPrototype account)
+    {
+        Accounts.Remove(account);
+    }
+    
+    public void DisplayAccounts()
+    {
+        Console.WriteLine("Customer: " + Name);
+        foreach (var account in Accounts)
+        {
+            Console.WriteLine("Account Number: " + account.GetBalance());
+            Console.WriteLine("Account Type: " + account.GetBalance());
+            Console.WriteLine("Balance: " + account.GetBalance());
+            Console.WriteLine("-----------------------------");
+        }
+    }
+}
+
+// Usage
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        // Builder pattern
+        var accountBuilder = new AccountBuilder();
+        var account1 = accountBuilder.SetAccountNumber("123456")
+                                    .SetAccountType("Savings")
+                                    .SetBalance(1000)
+                                    .Build();
+
+        var account2 = accountBuilder.SetAccountNumber("987654")
+                                    .SetAccountType("Checking")
+                                    .SetBalance(5000)
+                                    .Build();
+
+        // Prototype pattern
+        var clonedAccount = account1.Clone();
+
+        // Decorator pattern
+        var overdraftAccount = new OverdraftAccountDecorator(account1);
+        var clonedOverdraftAccount = overdraftAccount.Clone();
+
+        // Adapter pattern
+        var bankServiceAdapter = new BankServiceAdapter();
+        bankServiceAdapter.ProcessAccount(clonedAccount);
+
+        // Observer pattern
+        var accountObservable = new AccountObservable();
+        var accountObserver = new AccountObserver();
+        accountObservable.Attach(accountObserver);
+        accountObservable.SetAccount(clonedAccount);
+
+        // Strategy pattern
+        var interestStrategy = new SimpleInterestStrategy();
+        var interestAmount = interestStrategy.CalculateInterest(clonedAccount.GetBalance());
+        Console.WriteLine("Calculated interest amount: " + interestAmount);
+
+        // Banking system
+        var customer = new Customer("John Doe");
+        customer.AddAccount(account1);
+        customer.AddAccount(account2);
+        customer.DisplayAccounts();
+    }
+}

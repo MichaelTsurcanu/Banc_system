@@ -1,0 +1,75 @@
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\bin\Debug\net6.0\TmpsProject.exe
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\bin\Debug\net6.0\TmpsProject.deps.json
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\bin\Debug\net6.0\TmpsProject.runtimeconfig.json
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\bin\Debug\net6.0\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\bin\Debug\net6.0\TmpsProject.pdb
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.AssemblyReference.cache
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfoInputs.cache
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfo.cs
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.CoreCompileInputs.cache
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\refint\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.pdb
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\TmpsProject.genruntimeconfig.cache
+C:\Users\denis\OneDrive\Desktop\TmpsProject\TmpsProject\obj\Debug\net6.0\ref\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\bin\Debug\net6.0\TmpsProject.exe
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\bin\Debug\net6.0\TmpsProject.deps.json
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\bin\Debug\net6.0\TmpsProject.runtimeconfig.json
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\bin\Debug\net6.0\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\bin\Debug\net6.0\TmpsProject.pdb
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.AssemblyReference.cache
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfoInputs.cache
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfo.cs
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.CoreCompileInputs.cache
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\refint\TmpsProject.dll
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.pdb
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\TmpsProject.genruntimeconfig.cache
+C:\Users\denis\OneDrive\Desktop\Новая папка (2)\TmpsProject\obj\Debug\net6.0\ref\TmpsProject.dll
+C:\Users\Misha X\Desktop\Misha\TmpsProject\bin\Debug\net6.0\TmpsProject.exe
+C:\Users\Misha X\Desktop\Misha\TmpsProject\bin\Debug\net6.0\TmpsProject.deps.json
+C:\Users\Misha X\Desktop\Misha\TmpsProject\bin\Debug\net6.0\TmpsProject.runtimeconfig.json
+C:\Users\Misha X\Desktop\Misha\TmpsProject\bin\Debug\net6.0\TmpsProject.dll
+C:\Users\Misha X\Desktop\Misha\TmpsProject\bin\Debug\net6.0\TmpsProject.pdb
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.AssemblyReference.cache
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfoInputs.cache
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfo.cs
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.CoreCompileInputs.cache
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.dll
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\refint\TmpsProject.dll
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.pdb
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\TmpsProject.genruntimeconfig.cache
+C:\Users\Misha X\Desktop\Misha\TmpsProject\obj\Debug\net6.0\ref\TmpsProject.dll
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\bin\Debug\net6.0\TmpsProject.exe
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\bin\Debug\net6.0\TmpsProject.deps.json
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\bin\Debug\net6.0\TmpsProject.runtimeconfig.json
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\bin\Debug\net6.0\TmpsProject.dll
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\bin\Debug\net6.0\TmpsProject.pdb
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.AssemblyReference.cache
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfoInputs.cache
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfo.cs
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.CoreCompileInputs.cache
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.dll
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\refint\TmpsProject.dll
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.pdb
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\TmpsProject.genruntimeconfig.cache
+C:\Users\Misha X\Desktop\Bank_system\TmpsProject\obj\Debug\net6.0\ref\TmpsProject.dll
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\bin\Debug\net6.0\TmpsProject.exe
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\bin\Debug\net6.0\TmpsProject.deps.json
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\bin\Debug\net6.0\TmpsProject.runtimeconfig.json
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\bin\Debug\net6.0\TmpsProject.dll
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\bin\Debug\net6.0\TmpsProject.pdb
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.AssemblyReference.cache
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfoInputs.cache
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.AssemblyInfo.cs
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.csproj.CoreCompileInputs.cache
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.dll
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\refint\TmpsProject.dll
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.pdb
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\TmpsProject.genruntimeconfig.cache
+C:\Users\Misha X\Desktop\Banc_system\TmpsProject\obj\Debug\net6.0\ref\TmpsProject.dll
